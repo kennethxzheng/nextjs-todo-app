@@ -30,4 +30,22 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out;
+  }
+  .btn:hover {
+    @apply bg-blue-700;
+  }
+  .input {
+    @apply border border-gray-300 rounded py-2 px-4;
+  }
+  .input:focus {
+    @apply outline-none border-blue-500;
+  }
+  .fade-in {
+    @apply opacity-0 transition-opacity duration-500;
+  }
+  .fade-in-visible {
+    @apply opacity-100;
+  }
 }
